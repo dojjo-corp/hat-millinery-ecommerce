@@ -50,7 +50,7 @@ body {
 
 .topmost-wrapper {
   display: flex;
-  padding: 0!important;
+  padding: 0 !important;
   row-gap: 20px;
   column-gap: 30px;
 }
@@ -128,6 +128,12 @@ aside {
   flex-direction: column;
 }
 
+/* MAIN CONTENT */
+.main-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .main {
   display: flex;
   flex-direction: column;
@@ -163,7 +169,6 @@ aside {
   display: flex;
   align-items: center;
   gap: 10px;
-  /* grid-template-columns: repeat(2, minmax(2em, 150px)) */
 }
 
 .icon-container {
@@ -215,4 +220,11 @@ aside {
 }
 .text-lg {
   font-size: 1.6rem;
+}
+
+/* FOOTER */
+footer {
+  border-radius: var(--radius-md);
+  background-color: #fff;
+  padding: 20px;
 }

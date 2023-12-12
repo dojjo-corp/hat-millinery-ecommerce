@@ -1,0 +1,104 @@
+[debug] [2023-12-12T12:41:25.246Z] ----------------------------------------------------------------------
+[debug] [2023-12-12T12:41:25.249Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\New\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-12-12T12:41:25.249Z] CLI Version:   13.0.1
+[debug] [2023-12-12T12:41:25.250Z] Platform:      win32
+[debug] [2023-12-12T12:41:25.250Z] Node Version:  v20.2.0
+[debug] [2023-12-12T12:41:25.250Z] Time:          Tue Dec 12 2023 12:41:25 GMT+0000 (Greenwich Mean Time)
+[debug] [2023-12-12T12:41:25.250Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-12T12:41:25.253Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-12-12T12:41:25.310Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-12T12:41:25.311Z] > authorizing via signed-in user (jeffreysampsonennin@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\New\Desktop\hat millinery ecommerce
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-12T12:41:29.515Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-12-12T12:41:29.515Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-12-12T12:41:32.323Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-12-12T12:41:34.950Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=100, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 failed, reason: Socket connection timeout
+[debug] [2023-12-12T12:41:34.950Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2023-12-12T12:41:35.473Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\New\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:246:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-12-12T12:43:13.916Z] ----------------------------------------------------------------------
+[debug] [2023-12-12T12:43:13.919Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\New\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-12-12T12:43:13.920Z] CLI Version:   13.0.1
+[debug] [2023-12-12T12:43:13.920Z] Platform:      win32
+[debug] [2023-12-12T12:43:13.920Z] Node Version:  v20.2.0
+[debug] [2023-12-12T12:43:13.920Z] Time:          Tue Dec 12 2023 12:43:13 GMT+0000 (Greenwich Mean Time)
+[debug] [2023-12-12T12:43:13.921Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-12T12:43:13.929Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-12T12:43:13.929Z] > authorizing via signed-in user (jeffreysampsonennin@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\New\Desktop\hat millinery ecommerce
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-12T12:43:20.666Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-12-12T12:43:23.353Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=100, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 failed, reason: Socket connection timeout
+[debug] [2023-12-12T12:43:23.354Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2023-12-12T12:43:23.879Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\New\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:246:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-12-12T12:44:25.091Z] ----------------------------------------------------------------------
+[debug] [2023-12-12T12:44:25.094Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\New\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-12-12T12:44:25.094Z] CLI Version:   13.0.1
+[debug] [2023-12-12T12:44:25.095Z] Platform:      win32
+[debug] [2023-12-12T12:44:25.095Z] Node Version:  v20.2.0
+[debug] [2023-12-12T12:44:25.095Z] Time:          Tue Dec 12 2023 12:44:25 GMT+0000 (Greenwich Mean Time)
+[debug] [2023-12-12T12:44:25.095Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-12T12:44:25.104Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-12T12:44:25.104Z] > authorizing via signed-in user (jeffreysampsonennin@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\New\Desktop\hat millinery ecommerce
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 

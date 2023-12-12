@@ -1,7 +1,15 @@
+.logo-title {
+}
 .item-btn {
   justify-content: start !important;
+  width: 100%;
 }
 
 .item-img {
   width: 100%;
+}
+@media screen and (max-width: 765px) {
+  aside {
+    display: none !important;
+  }
 }
