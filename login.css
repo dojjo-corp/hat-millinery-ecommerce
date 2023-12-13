@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* border radii */
+  --radius-lg: 40px;
+  --radius-md: 15px;
+  --radius-sm: 12px;
+}
+
+body {
+  background-image: url(assets/login-bg-woman.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-bg-left {
+}
+
+form {
+  border: 1px solid grey;
+  border-radius: var(--radius-sm);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  padding: 30px;
+  min-height: 300px;
+}
+
+input {
+  color: rgb(200, 195, 195);
+  background-color: transparent;
+  box-shadow: none;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+input:focus,
+input:focus-visible,
+input:active {
+  outline: 0;
+  border: 0;
+}
+::placeholder {
+  color: rgb(145, 143, 143);
+}
